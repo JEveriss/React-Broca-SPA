@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -2.2rem;
+}
+.hands {
+  height: 18rem;
+}
+
+.footerText {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+}
+.footerLink {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+  justify-content: end;
+}
+.footerIcon {
+  height: 2rem;
+}
+
