@@ -5,10 +5,10 @@ import icon from "../assets/InstagramIcon.svg";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <div className="footer">
       <img className="hands" src={leftHand} />
       <div className="footerText">
-        <a >
+        <a>
           <img className="footerIcon" alt="Instagram Icon" src={icon} />
         </a>
         <a
@@ -23,7 +23,7 @@ function Footer() {
         </a>
       </div>
       <img className="hands" src={rightHand} />
-    </footer>
+    </div>
   );
 }
 

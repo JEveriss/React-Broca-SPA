@@ -1,15 +1,26 @@
-footer {
+/* footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: -2.2rem;
+  height: 10rem;
+  width: 100%;
+} */
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
+/* .footer > * {
+  width: 33%;
+} */
+
 .hands {
-  height: 18rem;
+  height: 10rem;
+  /* width: 25%; */
 }
 
 .footerText {
-  margin: 0;
+  margin: auto 0;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -24,4 +35,3 @@ footer {
 .footerIcon {
   height: 2rem;
 }
-

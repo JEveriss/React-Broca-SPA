@@ -2,6 +2,9 @@
   .mainPage {
     max-width: 1400px;
   }
+  .mainLogo {
+    padding: 0 6rem;
+  }
 }
 
 .mainPage {
@@ -27,6 +30,7 @@
 
 .mainLogo {
   padding: 0.5rem;
+  width: 100%;
 }
 .mapWrapper {
   width: 90%;
