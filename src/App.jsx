@@ -2,8 +2,6 @@ import "./App.css";
 import Footer from "./Footer";
 import Map from "./Map";
 import logo from "./assets/BrocaLogo.png";
-// import "./Footer/style.css";
-
 
 function App() {
   return (
@@ -13,8 +11,11 @@ function App() {
       </h1>
 
       <section className="mainText">
-        <h2 className="main__subTitle">v good cafe in SE London</h2>
-        <div className="address">
+        <h2 className="mainSubtitle">
+          A very good cafe in South East London <br />
+          est. 2007
+        </h2>
+        <div className="mainAddress">
           <p>Broca</p>
           <p>4 Coulgate Street</p>
           <p>Brockley</p>
@@ -27,7 +28,7 @@ function App() {
         <p>
           For any and all enquireies, send an email to TheBrocaCafe@Gmail.com
           <br />
-          Or send us a DM on Instagram
+          Or send us a <a href="https://www.instagram.com/thebrocacafe/?hl=en">DM on Instagram</a>
         </p>
       </section>
       <Map />

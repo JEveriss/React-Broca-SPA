@@ -5,32 +5,32 @@ import icon from "../assets/InstagramIcon.svg";
 
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footerWrapper">
       <img className="hands" src={leftHand} />
-      <div className="footerText">
-        <a
-          href="https://www.instagram.com/thebrocacafe/?hl=en"
-          target="_blank"
-        >
+      <div className="footerTextBlock">
+        <a href="https://www.instagram.com/thebrocacafe/?hl=en" target="_blank">
           <img className="footerIcon" alt="Instagram Icon" src={icon} />
+          <p className="footerTextSmall">Instagram</p>
         </a>
         <a
           className="footerLink"
           href="https://www.pagemasters.co/"
           target="_blank"
         >
-          Background artwork by PageMasters
+          <p className="footerLinkText"> Background artwork by PageMasters</p>
+          <p className="footerTextSmall">PageMasters</p>
         </a>
         <a
           className="footerLink"
           href="https://www.jacques-everiss.com"
           target="_blank"
         >
-          Website by Jacques Everiss
+          <p className="footerLinkText">Website by Jacques Everiss</p>
+          <p className="footerTextSmall">J.Everiss</p>
         </a>
       </div>
       <img className="hands" src={rightHand} />
-    </div>
+    </footer>
   );
 }
 
