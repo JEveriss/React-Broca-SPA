@@ -8,7 +8,10 @@ function Footer() {
     <div className="footer">
       <img className="hands" src={leftHand} />
       <div className="footerText">
-        <a>
+        <a
+          href="https://www.instagram.com/thebrocacafe/?hl=en"
+          target="_blank"
+        >
           <img className="footerIcon" alt="Instagram Icon" src={icon} />
         </a>
         <a
@@ -16,9 +19,13 @@ function Footer() {
           href="https://www.pagemasters.co/"
           target="_blank"
         >
-          Background by PageMasters
+          Background artwork by PageMasters
         </a>
-        <a className="footerLink" href="jacques-everiss.com" target="_blank">
+        <a
+          className="footerLink"
+          href="https://www.jacques-everiss.com"
+          target="_blank"
+        >
           Website by Jacques Everiss
         </a>
       </div>

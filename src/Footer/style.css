@@ -1,22 +1,10 @@
-/* footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: -2.2rem;
-  height: 10rem;
-  width: 100%;
-} */
 .footer {
   display: flex;
   justify-content: space-between;
 }
-/* .footer > * {
-  width: 33%;
-} */
 
 .hands {
   height: 10rem;
-  /* width: 25%; */
 }
 
 .footerText {
@@ -26,12 +14,14 @@
   justify-content: end;
   text-align: center;
 }
+
 .footerLink {
   text-decoration: none;
   color: inherit;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   justify-content: end;
 }
+
 .footerIcon {
-  height: 2rem;
+  height: 4rem;
 }
