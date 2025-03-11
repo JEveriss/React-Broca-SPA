@@ -6,7 +6,7 @@ import icon from "../assets/InstagramIcon.svg";
 function Footer() {
   return (
     <footer className="footerWrapper">
-      <img className="hands" src={leftHand} />
+      <img alt="styled left hand" className="footerHands" src={leftHand} />
       <div className="footerTextBlock">
         <a href="https://www.instagram.com/thebrocacafe/?hl=en" target="_blank">
           <img className="footerIcon" alt="Instagram Icon" src={icon} />
@@ -29,7 +29,7 @@ function Footer() {
           <p className="footerTextSmall">J.Everiss</p>
         </a>
       </div>
-      <img className="hands" src={rightHand} />
+      <img alt="styled right hand" className="footerHands" src={rightHand} />
     </footer>
   );
 }
